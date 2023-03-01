@@ -38,7 +38,7 @@ export default {
         <div class="row">
           <div class="list">
             <ul class="list_link">
-              <li>DC COMICS</li>
+              <li class="list_title">DC COMICS</li>
               <li>Characters</li>
               <li>Comics</li>
               <li>Movies</li>
@@ -46,9 +46,12 @@ export default {
               <li>Games</li>
               <li>Videos</li>
               <li>News</li>
+              <li class="list_title shop">SHOP</li>
+              <li>Shop DC</li>
+              <li>Shop DC Collactibles</li>
             </ul>
             <ul class="list_link">
-              <li>DC</li>
+              <li class="list_title">DC</li>
               <li>Terms Of Use</li>
               <li>Privacy policy (New)</li>
               <li>Ad Choices</li>
@@ -62,17 +65,12 @@ export default {
               <li>Contact Us</li>
             </ul>
             <ul class="list_link">
-              <li>SITES</li>
+              <li class="list_title">SITES</li>
               <li>DC</li>
               <li>MAD Magazine</li>
               <li>DC Kids</li>
               <li>DC Universe</li>
               <li>DC Power Visa</li>
-            </ul>
-            <ul class="list_link">
-              <li>SHOP</li>
-              <li>Shop DC</li>
-              <li>Shop DC Collactibles</li>
             </ul>
           </div>
           <div class="logo">
@@ -166,10 +164,20 @@ export default {
 
   & li {
     color: #959595;
+    margin: 5px 0px;
   }
 
-  .list_link li:first-child {
+  .list ul:nth-child(2) {
+    margin: 0 20px;
+  }
+
+  .list_title {
     color: white;
+    margin-bottom: 15px;
+  }
+
+  .shop {
+    margin-top: 25px;
   }
 
   .logo {
@@ -178,8 +186,10 @@ export default {
   }
 
   .list {
+    margin-top: 40px;
     flex-basis: calc(100%*(3/12));
-    display: flex
+    display: flex;
+    flex-grow: 1;
   }
 }
 
