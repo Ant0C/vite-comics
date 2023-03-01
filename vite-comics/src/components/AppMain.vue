@@ -20,6 +20,7 @@ export default {
 @use '../style/general.scss' as *;
 
 main {
+  padding: 40px;
   background-color: black;
 }
 
