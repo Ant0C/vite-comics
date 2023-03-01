@@ -13,52 +13,52 @@ export default {
       </div>
       <div class="cols">
         <ul class="menu-link">
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               CHARACTERS
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               COMICS
             </a>
           </li>
-          <li class="active_link active">
+          <li class="active_link active font">
             <a href="#">
               MOVIES
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               TV
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               GAMES
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               COLLECTIBLES
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               VIDEOS
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               FANS
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               NEWS
             </a>
           </li>
-          <li class="active_link">
+          <li class="active_link font">
             <a href="#">
               SHOP
             </a>

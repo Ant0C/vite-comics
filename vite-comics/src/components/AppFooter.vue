@@ -12,23 +12,23 @@ export default {
         <ul class="menu-calltoaction">
           <li class="item_calltoaction">
             <img src="/img/buy-comics-digital-comics.png" alt="">
-            <p>DIGITAL COMICS</p>
+            <p class="fontlight">DIGITAL COMICS</p>
           </li>
           <li class="item_calltoaction">
             <img src="/img/buy-comics-merchandise.png" alt="">
-            <p>DC MERCHANDISE</p>
+            <p class="fontlight">DC MERCHANDISE</p>
           </li>
           <li class="item_calltoaction">
             <img src="/img/buy-comics-subscriptions.png" alt="">
-            <p>SUBSCRIPTION</p>
+            <p class="fontlight">SUBSCRIPTION</p>
           </li>
           <li class="item_calltoaction">
             <img src="/img/buy-comics-shop-locator.png" alt="">
-            <p>COMIC SHOP LOCATOR</p>
+            <p class="fontlight">COMIC SHOP LOCATOR</p>
           </li>
           <li class="item_calltoaction">
             <img src="/img/buy-dc-power-visa.svg" alt="">
-            <p>DC POWER VISA</p>
+            <p class="fontlight">DC POWER VISA</p>
           </li>
         </ul>
       </div>
@@ -38,7 +38,7 @@ export default {
         <div class="row">
           <div class="list">
             <ul class="list_link">
-              <li class="list_title">DC COMICS</li>
+              <li class="list_title font">DC COMICS</li>
               <li>Characters</li>
               <li>Comics</li>
               <li>Movies</li>
@@ -46,12 +46,12 @@ export default {
               <li>Games</li>
               <li>Videos</li>
               <li>News</li>
-              <li class="list_title shop">SHOP</li>
+              <li class="list_title shop font">SHOP</li>
               <li>Shop DC</li>
               <li>Shop DC Collactibles</li>
             </ul>
             <ul class="list_link">
-              <li class="list_title">DC</li>
+              <li class="list_title font">DC</li>
               <li>Terms Of Use</li>
               <li>Privacy policy (New)</li>
               <li>Ad Choices</li>
@@ -65,7 +65,7 @@ export default {
               <li>Contact Us</li>
             </ul>
             <ul class="list_link">
-              <li class="list_title">SITES</li>
+              <li class="list_title font">SITES</li>
               <li>DC</li>
               <li>MAD Magazine</li>
               <li>DC Kids</li>
@@ -85,13 +85,13 @@ export default {
           <div class="community_signup">
             <div class="signup">
               <a href="#">
-                <p>SIGN-UP NOW!</p>
+                <p class="font">SIGN-UP NOW!</p>
               </a>
             </div>
           </div>
           <div class="community_social">
             <ul class="social">
-              <li>FOLLOW US</li>
+              <li class="font">FOLLOW US</li>
               <li>
                 <a href="#">
                   <img src="/img/footer-facebook.png" alt="">
