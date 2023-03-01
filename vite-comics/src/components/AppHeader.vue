@@ -85,10 +85,15 @@ export default {
 .menu-link {
   display: flex;
   gap: 15px;
+
+  & li {
+    padding: 42px 0px;
+  }
 }
 
 .active_link:hover,
 .active {
   color: $color-active-link;
+  border-bottom: 4px solid $color-active-link;
 }
 </style>
