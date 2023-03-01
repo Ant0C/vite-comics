@@ -7,8 +7,23 @@ export default {
 
 <template>
   <main>
-
+    <div class="container">
+      <p class="content">
+        Content goes Here
+      </p>
+    </div>
   </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../style/partials/variable' as *;
+@use '../style/general.scss' as *;
+
+main {
+  background-color: black;
+}
+
+.content {
+  color: white;
+}
+</style>

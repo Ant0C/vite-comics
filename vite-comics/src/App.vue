@@ -1,17 +1,25 @@
 <script>
-import AppHeader from './components/HelloWorld.vue'
-import AppMain from './components/HelloWorld.vue'
-import AppFooter from './components/HelloWorld.vue'
+import AppHeader from './components/AppMain.vue'
+import AppMain from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
-    AppFooter,
     AppHeader,
     AppMain,
+    AppFooter,
   }
 }
 </script>
 
-<template></template>
+<template>
+  <div>
+    <AppMain></AppMain>
+    <AppHeader></AppHeader>
+    <AppFooter></AppFooter>
+  </div>
+</template>
 
-<style></style>
+<style>
+@use './style/general.scss';
+</style>

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    display: block;
+    place-items: center;
+    min-width: 0px;
+    min-height: 0vh;
+}
