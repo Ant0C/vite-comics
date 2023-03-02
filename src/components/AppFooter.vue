@@ -157,7 +157,7 @@ export default {
 .calltoaction {
   padding: 40px;
   background-color: $color-active-link;
-  margin: -60px;
+  margin-bottom: -60px;
 }
 
 .menu-link {
@@ -201,7 +201,7 @@ export default {
 .community {
   background-color: #303030;
   padding: 40px;
-  margin: -80px;
+  margin-top: -80px;
 
   .row-space {
     justify-content: space-between;
