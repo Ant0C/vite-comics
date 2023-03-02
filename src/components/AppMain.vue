@@ -140,7 +140,7 @@ export default {
 .more {
   width: 200px;
   text-align: center;
-  margin: 20px auto 0px auto;
+  margin: 20px auto 40px auto;
   background-color: $color-active-link;
   color: white;
   padding: 10px 0px;

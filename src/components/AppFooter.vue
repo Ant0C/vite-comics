@@ -157,14 +157,18 @@ export default {
 .calltoaction {
   padding: 40px;
   background-color: $color-active-link;
+  margin: -60px;
 }
 
 .menu-link {
   background-image: url('/img/footer-bg.jpg');
+  position: relative;
+  z-index: -1;
 
   & li {
     color: #959595;
     margin: 5px 0px;
+    font-size: 12px;
   }
 
   .list ul:nth-child(2) {
@@ -173,7 +177,8 @@ export default {
 
   .list_title {
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
   }
 
   .shop {
@@ -186,7 +191,7 @@ export default {
   }
 
   .list {
-    margin-top: 40px;
+    margin-top: 80px;
     flex-basis: calc(100%*(3/12));
     display: flex;
     flex-grow: 1;
@@ -196,6 +201,7 @@ export default {
 .community {
   background-color: #303030;
   padding: 40px;
+  margin: -80px;
 
   .row-space {
     justify-content: space-between;
